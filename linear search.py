@@ -5,6 +5,7 @@ Spyder Editor
 This is a temporary script file.
 """
 def linearSearch(array, n, x):
+    #Going through array sequencially
     for  i in range(0, n):
         if (array[i] == x):
             return i
